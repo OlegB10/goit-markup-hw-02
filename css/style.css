@@ -1,0 +1,281 @@
+/* основний колір тексту #434455 */
+/* вторинний колір тексту #2E2F42*/
+/* колір кнопок та Веб IRIS #4D5AE5*/
+/* білий #FFFFFF */
+/* CLOUD #F4F4FD */
+/* CORNFLOWER текст у футері #E7E9FC */
+/* акцент ALL #404BBF */
+/* основний колір фону #E5E5E5 */
+/* вторинний колір фону #FFFFFF */
+
+/* BODY */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #E5E5E5;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* HEADER */
+
+/* .header {} */
+
+/* logo */
+.header-navigation {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1,33;
+        color: #4D5AE5;
+        text-decoration: none;
+        }
+
+.header-navigation-link {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1,33;
+        color: #2E2F42;
+        }
+
+/* .header-list {} */
+
+/* .header-item {} */
+
+.header-link {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1,5;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+.header-link:is(:hover, :focus) {
+color: #404BBF
+}
+
+/* .header-address {} */
+
+.header-mail {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1,5;
+        letter-spacing: 0.02em;
+        color: #434455;
+        font-style: normal;
+}
+
+.header-mail:is(:hover, :focus) {
+    color: #404BBF
+}
+
+.header-tel {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1,5;
+        letter-spacing: 0.02em;
+        color: #434455;
+        text-decoration: none;
+        font-style: normal;
+}
+/* STUDIO */
+/* HERO Section - 1 */
+
+.hero-section {
+    background-color: #2E2F42;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1,07;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.hero-button {
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.04em;
+     color: #FFFFFF;
+}
+
+.hero-button:is(:hover, :focus) {
+    background-color: #404BBF;
+    
+}
+
+/* Section Values - 2 */
+
+/* .section-values {} */
+
+/* .section-values-title {} */
+
+/* .section-values-list {} */
+
+/* .section-values-item {} */
+
+.section-values-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1,2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.section-values-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/* Section DOING - 3 */
+
+/* .section-doing {} */
+
+.section-doing-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,11;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+/* .section-doing-list {} */
+
+/* .section-doing-item {} */
+
+/* Section TEAM - 4 */
+
+.section-team {
+    background: #F4F4FD;
+}
+
+.section-team-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1,11;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+/* .section-team-list {} */
+
+/* .section-team-item {} */
+
+.section-team-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1,2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.section-team-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #2E2F42;;
+}
+
+.footer-navigation {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1,33;
+    color: #4D5AE5;
+    text-decoration: none;
+}
+
+.footer-navigation-link {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1,17;
+    letter-spacing: 0.03em;
+    color: #F4F4FD;
+}
+
+.footer-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.02em;
+color: #E7E9FC;
+}
+
+/* PORTFOLIO */
+
+/* Section */
+
+/* FILTERS */
+/* .section-filters {} */
+
+/* .section-filters-title {} */
+
+/* .section-filters-list {} */
+
+/* .section-filters-btn {} */
+
+.filters-button {
+    background: #F4F4FD;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+}
+
+.filters-button:is(:hover, :focus) {
+    background: #404BBF;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1, 5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+/* FINGERS */
+
+/* .section-finger-list {} */
+
+.section-finger-item {
+    background-color: #fff;
+    }
+
+.section-finger-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1,2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.section-finger-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
