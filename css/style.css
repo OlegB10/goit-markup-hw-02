@@ -90,28 +90,19 @@ color: #404BBF
     font-style: normal;
 }
 
-.header-mail {
-        font-weight: 400;
+.header-address-item {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
         font-style: normal;
+        text-decoration: none;
 }
 
-.header-mail:is(:hover, :focus) {
+.header-address-item:is(:hover, :focus) {
     color: #404BBF
 }
 
-.header-tel {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
-        text-decoration: none;
-        font-style: normal;
-}
 /* ----------------------------- STUDIO ------------------------- */
 
 /* ----------------------------- HERO ---------------------------*/
